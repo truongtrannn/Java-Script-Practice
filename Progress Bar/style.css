@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arvo', serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.progress {
+    position: relative;
+    width: 402px;
+    height: 20px;
+    background: #b5b5b5;
+    border-radius: 10px;
+}
+
+.progress-done {
+    height: 100%;
+    background: #605f5f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    transition: width 0.3s linear;
+    opacity: 0.8;
+}
